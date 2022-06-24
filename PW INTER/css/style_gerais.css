@@ -1,0 +1,125 @@
+/* Geral */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #dedee9;
+    font-family: sans-serif;
+}
+main{
+    width: 920px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header{
+    font-family: sans-serif;
+    background:  blue;
+    text-align: center;
+    color: white;
+    height: 150px;
+}
+#cabecalho{
+    font-family: sans-serif;
+    padding: 20px;
+}
+h1{
+    color: yellow;
+    font-size: 45px;
+    display: inline-flex;
+}
+h2{
+    color: #39f;
+    font-size: 35px;
+    display: inline-flex;
+}
+/* Navegação */
+#navegacao{
+    height: 50px;
+    margin: 15px;
+}
+/* Formatação de Links */
+nav>span>a:link,nav>span>a:visited{ 
+    color: white;
+    text-decoration:none;
+    font-size: 20px;
+    margin: 5px;
+}
+nav>span>a:hover{
+    background: #39f;
+    border-radius: 20px 40px ;
+    padding: 15px;
+}
+section>.plano>.link2:hover{
+    background: rgb(56, 56, 56);
+    text-decoration: none;
+    border-radius: 10px 20px;
+}
+.link2{
+    color:gray;
+    text-decoration: none; 
+} 
+.selecionado{
+    background: #39f;
+    border-radius: 20px 40px ;
+    padding: 15px;
+}
+/* Formatação de letras e etc */
+#titulo1{
+    font-size: 23px;
+    text-align: center;
+    margin: 20px;
+    color: #39f;
+}
+.titulo2{
+    font-size: 18px;
+    color: rgb(103, 184, 184);
+}
+#titulo3{
+    font-family: sans-serif;
+    font-size: 21px;
+    text-align: center;
+    margin: 20px;
+    color: #39f;
+}
+hr{
+    background-color: #39f;
+    height: 2px;
+}
+/* Formatação de blocos */
+.conteudo{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+.centralizar{
+    text-align: center;
+}
+.conteudo_rodape{
+    text-align: center;
+    background-color: rgb(180, 180, 180);
+    font-size: 15px;
+    height: 140px;
+}
+.conteudo_text{
+    font-size: 18px;
+    margin: 20px; 
+}
+.lista{
+    list-style: none;
+    margin: 20px;
+    font-size: 18px;
+}
+.imagens{
+    border: 4px solid yellow;  
+    box-shadow:5px 5px 5px 5px yellow;
+    
+}
+.flex-container {
+    display: flex;
+    margin: 10px;
+}
+.tituloclick{
+    text-decoration: none;
+}
